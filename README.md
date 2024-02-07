@@ -12,10 +12,6 @@
 
 * Extracted BBPS features from the training set and Built two SVM classifiers for recognizing the letters and numbers of the license plate.
 
-# Software/Packages Used
-
-
-
 # Algorithms & Methods Used
 
 * License plate localization
@@ -42,8 +38,3 @@
     * Block-binary-pixel-sum descriptor
   * Train two classifiers on the BBPS features: one classifier for letter recognition and a second classifier for digit recognition.
     * Support vector machine
-
-## Support Me
-If you liked this, leave a star and fork it! :star: 
-
-If you liked this and also liked my other work, be sure to follow me for more! :slightly_smiling_face:
