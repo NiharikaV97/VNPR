@@ -39,4 +39,4 @@ Character Classification
  * Extract block-binary-pixel-sum (BBPS) features from real-world license plate character examples.
    * Block-binary-pixel-sum descriptor
  * Train two classifiers on the BBPS features: one classifier for letter recognition and a second classifier for digit recognition.
-   *Support vector machine
+   * Support vector machine
