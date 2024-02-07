@@ -19,10 +19,11 @@ License plate localization
     * Sobel gradient
     * Otsu automatic thresholding
     * Erosion & dilation
-      
-Utilize contour properties to prune license plate candidates.
+  * Utilize contour properties to prune license plate candidates.
+
 Characters segmentation
-Apply perspective transform to extract license plate region from car, obtaining a top-down, bird’s eye view more suitable for character segmentation.
+
+ * Apply perspective transform to extract license plate region from car, obtaining a top-down, bird’s eye view more suitable for character segmentation.
 4-point transform
 Adaptive thresholding
 Perform a connected component analysis on the license plate region to find character-like sections of the image.
