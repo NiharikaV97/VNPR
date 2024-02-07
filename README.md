@@ -22,20 +22,21 @@ License plate localization
   * Utilize contour properties to prune license plate candidates.
 
 Characters segmentation
-
  * Apply perspective transform to extract license plate region from car, obtaining a top-down, bird’s eye view more suitable for character segmentation.
-4-point transform
-Adaptive thresholding
-Perform a connected component analysis on the license plate region to find character-like sections of the image.
-8-connectivity component analysis
-Convex hull
-Utilize contour properties to segment the foreground license plate characters from the background of the license plate.
+  * 4-point transform
+  * Adaptive thresholding
+ * Perform a connected component analysis on the license plate region to find character-like sections of the image.
+  * 8-connectivity component analysis
+  * Convex hull
+ * Utilize contour properties to segment the foreground license plate characters from the background of the license plate.
+   
 Character Scissoring
-Develop and implement a heuristic to prune extraneous license plate character candidates, leaving with only the real characters.
-Define a method to extract each of the license plate characters from the binary image.
+ * Develop and implement a heuristic to prune extraneous license plate character candidates, leaving with only the real characters.
+ * Define a method to extract each of the license plate characters from the binary image.
+   
 Character Classification
-Extract and label license character examples from license plate dataset.
-Extract block-binary-pixel-sum (BBPS) features from real-world license plate character examples.
-Block-binary-pixel-sum descriptor
-Train two classifiers on the BBPS features: one classifier for letter recognition and a second classifier for digit recognition.
-Support vector machine
+ * Extract and label license character examples from license plate dataset.
+ * Extract block-binary-pixel-sum (BBPS) features from real-world license plate character examples.
+  * Block-binary-pixel-sum descriptor
+ * Train two classifiers on the BBPS features: one classifier for letter recognition and a second classifier for digit recognition.
+  *Support vector machine
