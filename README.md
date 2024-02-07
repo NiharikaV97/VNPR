@@ -10,3 +10,5 @@
 * Scissored the true characters from previous step by pruning extraneous license plate character candidates, and extracting each character from binary image to create a training set for building classifiers.
 
 * Extracted BBPS features from the training set and Built two SVM classifiers for recognizing the letters and numbers of the license plate.
+
+## Algorithms & Methods Used
