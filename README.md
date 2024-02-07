@@ -1,5 +1,6 @@
 # VNPR(Vehicle Number Plate Recognition)
-Project Objectives
+## Project Objectives
+
 Developed a program to recognize automatic license plates based on limited dataset.
 
 Localized license plate by applying morphological operations and utilizing contour properties.
